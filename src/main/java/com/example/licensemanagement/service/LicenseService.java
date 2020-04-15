@@ -11,4 +11,5 @@ import com.example.licensemanagement.model.License;
 public interface LicenseService {
     List<License> getLicenses();
     License getById(Long id);
+    License getFirst();
 }

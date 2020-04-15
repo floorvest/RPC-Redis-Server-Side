@@ -43,4 +43,14 @@ public class LicenseServiceImpl implements LicenseService {
         return license3;
     }
 
+    @Override
+    public License getFirst() {
+        License license3 = new License();
+        license3.setLicenseContent("1234-5678-9000-1234");
+        license3.setLicenseExpired(new Date());
+        license3.setLicenseType("HOLDING");
+
+        return license3;
+    }
+
 }
